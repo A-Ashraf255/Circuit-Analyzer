@@ -13,7 +13,7 @@ Calculating the total resistance of a circuit is essential for analyzing any ele
 
 ## Usage
 
-1. **Input Circuit Description**: Provide a description of the circuit, including the type of connections ('S' for series or 'P' for parallel), followed by the resistance values separated by spaces. Use 'E' to indicate the end of each connection and 'E' at the end to signal the end of the circuit description.
+1. **Input Circuit Description**: Provide a description of the circuit, including the type of connections ('S' for series or 'P' for parallel), followed by the resistance values separated by spaces. Use 'e' to indicate the end of each connection and 'E' at the end to signal the end of the circuit description.
 
 2. **Input Applied Voltage**: Enter the voltage applied to the circuit.
 
