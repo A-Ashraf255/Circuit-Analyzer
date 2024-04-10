@@ -2,7 +2,7 @@
 using namespace std;
 
 double total_resistance(const string &description, char connection);
-bool is_not_valid(string description);
+bool is_not_valid(const string &description);
 
 int main()
 {
@@ -65,7 +65,7 @@ double total_resistance(const string &description, char connection)
 }
 
 // Check if the circuit description contains invalid characters.
-bool is_not_valid(string description)
+bool is_not_valid(const string &description)
 {
    bool notValid = false;
    for (auto &character : description)
