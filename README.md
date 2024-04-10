@@ -21,7 +21,7 @@ Calculating the total resistance of a circuit is essential for analyzing any ele
 
 ## Example
 
-- Circuit description: S 10 20 E P 30 40 50 E P 60 70 E E
+- Circuit description: S 10 20 e P 30 40 50 e P 60 70 e E
 - Applied voltage: 10
 - Total resistance = 226.667 ohm
 - Circuit current = 0.441 A
