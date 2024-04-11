@@ -7,7 +7,7 @@ bool is_not_valid(const string &description);
 int main()
 {
    string description;
-   double Req = 0, voltage;
+   double Req, voltage;
 
    cout << "Circuit description: ";
    getline(cin, description);
