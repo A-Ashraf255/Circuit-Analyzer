@@ -67,23 +67,22 @@ double total_resistance(const string &description, char connection)
 // Check if the circuit description contains invalid characters.
 bool is_not_valid(const string &description)
 {
-   bool notValid = false;
    for (auto &character : description)
    {
       // Checking if the user entered non-allowed characters.
       switch (character)
       {
-      case '.':
-      case ' ':
-      case '0' ... '9':
-      case 'e':
-      case 'E':
-      case 'P':
-      case 'S':
-         break;
-      default:
-         notValid = true;
+         case '.':
+         case ' ':
+         case '0' ... '9':
+         case 'e':
+         case 'E':
+         case 'P':
+         case 'S':
+            break;
+         default:
+            return true ;
       }
    }
-   return notValid;
+   return false;
 }
