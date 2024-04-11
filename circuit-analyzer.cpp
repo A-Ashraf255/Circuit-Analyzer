@@ -26,7 +26,7 @@ int main()
    }
 }
 
-// Calculate the total resistance for the given branch, the function handle all types of mixed connections.
+// Calculate the total resistance for the given branch, The function uses recursion to handle nested branches within the circuit description. It returns the total resistance based on the connection type ('S' for series and 'P' for parallel).
 double total_resistance(const string &description, char connection)
 {
    double Req = 0, R_temp;
